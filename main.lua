@@ -1,1 +1,19 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua.txt"))()
+-- Delta
+local url = "https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua.txt"
+
+local success, content = pcall(function()
+    return game:HttpGet(url, true) -- Добавили true для кэширования
+end)
+
+if success and content then
+    print("✅ Script loaded, size: " .. #content .. " байт")
+    local func, err = loadstring(content)
+    if func then
+        print("🚀 Running...")
+        func()
+    else
+        warn("❌ Error with something: " .. tostring(err))
+    end
+else
+    warn("❌ Error loading with github: " .. tostring(content))
+end
