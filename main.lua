@@ -1,8 +1,8 @@
 -- Delta
-local url = "https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua.txt"
+local url = "https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua%20(2).txt"
 
 local success, content = pcall(function()
-    return game:HttpGet(url, true) -- Добавили true для кэширования
+    return game:HttpGet(url, true)
 end)
 
 if success and content then
