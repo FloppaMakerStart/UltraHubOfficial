@@ -1,1 +1,1 @@
-https://github.com/FloppaMakerStart/UltraHubOfficial/edit/main/obfuscated.lua.txt
+https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua.txt
