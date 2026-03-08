@@ -1,5 +1,5 @@
 -- Delta
-local url = "https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua%20(2).txt"
+local url = "https://raw.githubusercontent.com/FloppaMakerStart/UltraHubOfficial/refs/heads/main/obfuscated.lua1.txt"
 
 local success, content = pcall(function()
     return game:HttpGet(url, true)
