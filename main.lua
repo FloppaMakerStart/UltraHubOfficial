@@ -6,7 +6,7 @@ local success, content = pcall(function()
 end)
 
 if success and content then
-    print("✅ Script loaded, size: " .. #content .. " байт")
+    print("✅ Script loaded, size: " .. #content .. " part")
     local func, err = loadstring(content)
     if func then
         print("🚀 Running...")
