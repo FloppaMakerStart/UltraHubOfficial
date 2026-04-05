@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://obfuscatorpy-production.up.railway.app/script/UltraHub",true))()
+loadstring(game:HttpGet("https://ultrahubobf.v6.army/script/UltraHub",true))()
